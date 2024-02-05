@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    gap: 2px;
+}
+
+#pixelCell::before {
+    content: '';
+    padding-top: 100%;
+    display: block;
+    float: left;
+}
+
+#square .content {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+  }

@@ -1,20 +1,22 @@
-#container {
+.container {
+/*    display: flex;
+    flex-direction: column; */
     display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    gap: 2px;
+    width: 960px;
+    height: 960px;
+    box-sizing: border-box;
+    border: solid 2px black;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-#pixelCell::before {
-    content: '';
-    padding-top: 100%;
-    display: block;
-    float: left;
+.pixel {
+    display: flex;
+    box-sizing: border-box;
+    border: solid 2px black;
+    width: 58px;
 }
 
-#square .content {
-    position: absolute;
-    top: 0; left: 0;
-    height: 100%;
-    width: 100%;
-  }
+body html {
+    pointer-events: none;
+}

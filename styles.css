@@ -1,22 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
-/*    display: flex;
-    flex-direction: column; */
     display: flex;
     width: 960px;
     height: 960px;
-    box-sizing: border-box;
     border: solid 2px black;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 0px;
 }
 
 .pixel {
     display: flex;
     box-sizing: border-box;
-    border: solid 2px black;
-    width: 58px;
+    border: solid 1px black;
+  /*  width: 58px;*/
 }
 
 body html {
     pointer-events: none;
 }
+

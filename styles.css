@@ -16,10 +16,27 @@
     display: flex;
     box-sizing: border-box;
     border: solid 1px black;
-  /*  width: 58px;*/
 }
 
 body html {
     pointer-events: none;
 }
+
+.colors {
+    position: relative;
+}
+
+.active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+  }
+
+#interface {
+    margin: 2px;
+    padding: 4px;
+    gap: 2px;
+}
+
+  
 
